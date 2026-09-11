@@ -27,7 +27,7 @@ namespace PREFINALS_EXAM.Controllers
                 new ExamItem { Id = 6, Category = "Conceptual Data Architecture & Razor Syntax", Question = "6. Where is a database connection string commonly stored in an ASP.NET Core MVC application?", Options = new List<string>{ "A. Program.cs only", "B. appsettings.json", "C. Index.cshtml", "D. Student.cs" }, CorrectAnswer = 'B', AnswerText = "B. appsettings.json" },
                 new ExamItem { Id = 7, Category = "Conceptual Data Architecture & Razor Syntax", Question = "7. A Student belongs to exactly one Section, while a Section can contain many students. What type of relationship is this?", Options = new List<string>{ "A. One-to-One", "B. One-to-Many", "C. Many-to-Many", "D. Many-to-One only" }, CorrectAnswer = 'B', AnswerText = "B. One-to-Many" },
                 new ExamItem { Id = 8, Category = "Conceptual Data Architecture & Razor Syntax", Question = "8. In the following example, what is SectionId?\npublic int SectionId { get; set; }\npublic Section Section { get; set; }", Options = new List<string>{ "A. Primary key of Student", "B. Foreign key referencing Section", "C. Navigation property", "D. Database connection string" }, CorrectAnswer = 'B', AnswerText = "B. Foreign key referencing Section" },
-
+                new ExamItem { Id = 9, Category = "Conceptual Data Architecture & Razor Syntax", Question = "9. What is the purpose of a navigation property such as public Section Section { get; set; }?", Options = new List<string>{ "A. It stores the database password", "B. It represents a relationship to another entity", "C. It creates a new database", "D. It validates the student's name" }, CorrectAnswer = 'B', AnswerText = "B. It represents a relationship to another entity" },
 
 
 
