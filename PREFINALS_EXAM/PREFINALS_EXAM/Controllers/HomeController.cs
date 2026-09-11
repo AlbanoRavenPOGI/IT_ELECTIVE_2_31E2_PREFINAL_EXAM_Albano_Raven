@@ -38,9 +38,7 @@ namespace PREFINALS_EXAM.Controllers
                 new ExamItem { Id = 17, Category = "SQL & In-Memory CRUD Operations", Question = "17. What is the purpose of a try...catch block in a controller?", Options = new List<string>{ "A. To create navigation properties", "B. To catch and handle exceptions that may occur during execution", "C. To generate database tables", "D. To perform client-side validation" }, CorrectAnswer = 'B', AnswerText = "B. To catch and handle exceptions that may occur during execution" },
                 new ExamItem { Id = 18, Category = "SQL & In-Memory CRUD Operations", Question = "18. Which middleware is commonly used in ASP.NET Core for centralized exception handling?", Options = new List<string>{ "A. UseDatabase()", "B. UseExceptionHandler()", "C. UseValidationHandler()", "D. UseMvcDatabase()" }, CorrectAnswer = 'B', AnswerText = "B. UseExceptionHandler()" },
                 new ExamItem { Id = 19, Category = "SQL & In-Memory CRUD Operations", Question = "19. A user requests /Student/999, but Student 999 does not exist. What would be the most appropriate response?", Options = new List<string>{ "A. Display the student's information anyway", "B. Display a Not Found (404) response/page", "C. Delete Student 999", "D. Create Student 999 automatically" }, CorrectAnswer = 'B', AnswerText = "B. Display a Not Found (404) response/page" },
-
-
-
+                new ExamItem { Id = 20, Category = "SQL & In-Memory CRUD Operations", Question = "20. A student already belongs to Section A for a particular subject. The application attempts to assign the same student to Section A again. What is the primary concern?", Options = new List<string>{ "A. Data integrity", "B. HTML formatting", "C. CSS inheritance", "D. Razor syntax" }, CorrectAnswer = 'A', AnswerText = "A. Data integrity" }
 
             };
         }
